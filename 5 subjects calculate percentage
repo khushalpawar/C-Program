@@ -1,0 +1,15 @@
+// Calculate Total, percentage & average marks of 5 subjects
+#include <stdio.h>
+
+int main() {
+    int a,b,c,d,e,total;
+    float per;
+    printf("enter the marks");
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+    total=a+b+c+d+e;
+    per=total/5;
+    printf("Percentage=%f",per);
+    per =(total/500)*100;
+    
+    return 0;
+}
