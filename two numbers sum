@@ -1,0 +1,12 @@
+//Find the sum, product of two numbers, Take numbers from user
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+int a,b,sum;
+printf("enter the two numbers");
+scanf("%d%d",&a,&b);
+sum=a+b;
+printf("sum%d",sum);
+getch();
+}
