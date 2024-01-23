@@ -1,0 +1,12 @@
+//Find the square and cube of given number
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+int n;
+printf("enter the number");
+scanf("%d",&n);
+printf("\nsquare number%d is %d",n,n*n);
+printf("\ncube number%d is %d",n,n*n*n);
+getch();
+}
